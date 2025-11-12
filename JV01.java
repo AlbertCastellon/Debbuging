@@ -1,9 +1,7 @@
 public class JV01 {
     public static void main(String[] args) {
-        //Off-by-One
-        int sumaErronia = 0;
-        for (int i = 1; i <= 5; i++){
-            sumaErronia += i * 2;
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i);
         }
-
-        System.out.println("Resultat erroni: " + sumaErronia);}}
+    }
+}

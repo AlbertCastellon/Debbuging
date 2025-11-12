@@ -1,13 +1,9 @@
 public class JV06 {
     public static void main(String[] args) {
-        String a = new String("Hello");
-        String b = new String("Hello");
+        String nom = null;  // Declarada i inicialitzada com a null (si no estigués inicialitzada no podria utilitzar el programa)
 
-        if (a == b) {
-            System.out.println("Equal");
-        } else {
-            System.out.println("Not equal");
-        }
+        System.out.println("Longitud del nom: " + nom.length());  // ❌ Error aquí
+
     }
 }
 
