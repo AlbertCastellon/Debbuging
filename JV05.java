@@ -1,6 +1,7 @@
 public class JV05 {
+    static int totalComandes = 5; // Comandes ja existents abans del torn
     public static void main(String[] args) {
-        int totalComandes = 5; // Comandes ja existents abans del torn
+         
 
         System.out.println("Abans de començar el torn, totalComandes = " + totalComandes);
 
@@ -10,7 +11,7 @@ public class JV05 {
 
         System.out.println("Després del torn, totalComandes = " + totalComandes);
     }
-    public static void afegirComandes(int cambrers) {
+    public static void afegirComandes(int cambrers) {   
         int totalComandes = 0;
         for (int i = 0; i < cambrers; i++) {
             totalComandes += 1;    // incrementa només la variable interna

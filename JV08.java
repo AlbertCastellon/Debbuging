@@ -1,6 +1,6 @@
 public class JV08 {
     // Method missing a return
-    public static int sum(int a, int b) {
+    public static int sum(int a, int b) { //gracies per la seva atencio!
         int result = a + b;
         
     }
