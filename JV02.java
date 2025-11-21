@@ -3,7 +3,7 @@ public class JV02 {
         int x = 0;
         while (x < 5) {
             System.out.println(x);
-            
+                        
         }
     }
 }
